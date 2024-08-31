@@ -1,0 +1,25 @@
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  align-items: center;
+}
+
+.box-ctn {
+  background-color: #333;
+  padding: 20px;
+  border: 2px solid white;
+  text-align: center;
+  color: white;
+}
+
+.modal-close-btn {
+  margin-top: 20px;
+  color: white;
+}

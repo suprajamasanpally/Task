@@ -1,0 +1,35 @@
+.homepage-ctn {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.homepage-ctn h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.button-ctn {
+    display: flex;
+    gap: 30px;
+}
+
+.btttn {
+    width: 100px;
+    height: 40px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btttn:hover {
+    background-color: #0056b3;
+}
